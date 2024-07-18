@@ -1,0 +1,12 @@
+# Ignore Xcode project user data
+*.xcuserdatad/
+*.xcscmblueprint/
+
+# Ignore Xcode workspace settings
+*.xcworkspace/
+
+# Ignore Pods directory
+Pods/
+
+# Ignore Podfile and Podfile.lock if necessary
+Podfile.lock

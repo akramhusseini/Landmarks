@@ -1,0 +1,9 @@
+input_dir: .
+output_dir: Generated
+
+xcassets:
+  inputs:
+    - Landmarks/Assets.xcassets
+  outputs:
+    templateName: swift5
+    output: Generated/Assets.swift

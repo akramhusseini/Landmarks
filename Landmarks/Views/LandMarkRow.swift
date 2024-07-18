@@ -8,11 +8,23 @@
 import SwiftUI
 
 struct LandMarkRow: View {
+    var landmark: Landmark
+    
     var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        HStack {
+            landmark.image
+                .resizable()
+                .frame(width: 50, height: 50)
+            Text(landmark.name)
+            Spacer()
+        }
     }
 }
 
-#Preview {
-    LandMarkRow()
+#Preview("Turtle Rock") {
+    Group {
+        LandMarkRow(landmark: landmarks[0])
+        LandMarkRow(landmark: landmarks[1])
+    }
 }
+

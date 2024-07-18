@@ -7,6 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		4E32C650C874AB56503100E8 /* Pods_Landmarks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 63074D91140E49BE05A654B5 /* Pods_Landmarks.framework */; };
+		EA55190C2C453630002D0359 /* CircleImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA55190B2C453630002D0359 /* CircleImage.swift */; };
+		EA8E223F2C453D2800FE09EB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8E223E2C453D2800FE09EB /* MapView.swift */; };
+		EA8E22412C4553F300FE09EB /* landmarkData.json in Resources */ = {isa = PBXBuildFile; fileRef = EA8E22402C4553F300FE09EB /* landmarkData.json */; };
+		EA8E22432C4554D000FE09EB /* Landmark.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8E22422C4554D000FE09EB /* Landmark.swift */; };
+		EA8E22452C455F9C00FE09EB /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8E22442C455F9C00FE09EB /* ModelData.swift */; };
+		EA8E224B2C45611100FE09EB /* LandMarkRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8E224A2C45611100FE09EB /* LandMarkRow.swift */; };
+		EA8E224D2C4564E100FE09EB /* LandmarkList.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8E224C2C4564E100FE09EB /* LandmarkList.swift */; };
+		EA8E224F2C45698B00FE09EB /* LandmarkDetail.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8E224E2C45698B00FE09EB /* LandmarkDetail.swift */; };
 		EA91B3832C450D3300A22566 /* LandmarksApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA91B3822C450D3300A22566 /* LandmarksApp.swift */; };
 		EA91B3852C450D3300A22566 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA91B3842C450D3300A22566 /* ContentView.swift */; };
 		EA91B3872C450D3400A22566 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EA91B3862C450D3400A22566 /* Assets.xcassets */; };
@@ -14,6 +23,17 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1220B7E73737248D6B0DB98E /* Pods-Landmarks.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Landmarks.release.xcconfig"; path = "Target Support Files/Pods-Landmarks/Pods-Landmarks.release.xcconfig"; sourceTree = "<group>"; };
+		63074D91140E49BE05A654B5 /* Pods_Landmarks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Landmarks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9AEBAA0F765B780E6FC04B21 /* Pods-Landmarks.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Landmarks.debug.xcconfig"; path = "Target Support Files/Pods-Landmarks/Pods-Landmarks.debug.xcconfig"; sourceTree = "<group>"; };
+		EA55190B2C453630002D0359 /* CircleImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleImage.swift; sourceTree = "<group>"; };
+		EA8E223E2C453D2800FE09EB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		EA8E22402C4553F300FE09EB /* landmarkData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = landmarkData.json; sourceTree = "<group>"; };
+		EA8E22422C4554D000FE09EB /* Landmark.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Landmark.swift; sourceTree = "<group>"; };
+		EA8E22442C455F9C00FE09EB /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
+		EA8E224A2C45611100FE09EB /* LandMarkRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandMarkRow.swift; sourceTree = "<group>"; };
+		EA8E224C2C4564E100FE09EB /* LandmarkList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkList.swift; sourceTree = "<group>"; };
+		EA8E224E2C45698B00FE09EB /* LandmarkDetail.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarkDetail.swift; sourceTree = "<group>"; };
 		EA91B37F2C450D3300A22566 /* Landmarks.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Landmarks.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EA91B3822C450D3300A22566 /* LandmarksApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LandmarksApp.swift; sourceTree = "<group>"; };
 		EA91B3842C450D3300A22566 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -26,17 +46,67 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4E32C650C874AB56503100E8 /* Pods_Landmarks.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		779440A6FE901BAB06B0E56D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				63074D91140E49BE05A654B5 /* Pods_Landmarks.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CF4B7566A548BE7F93B9F7E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9AEBAA0F765B780E6FC04B21 /* Pods-Landmarks.debug.xcconfig */,
+				1220B7E73737248D6B0DB98E /* Pods-Landmarks.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		EA8E22472C45605D00FE09EB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				EA91B3842C450D3300A22566 /* ContentView.swift */,
+				EA55190B2C453630002D0359 /* CircleImage.swift */,
+				EA8E223E2C453D2800FE09EB /* MapView.swift */,
+				EA8E224A2C45611100FE09EB /* LandMarkRow.swift */,
+				EA8E224C2C4564E100FE09EB /* LandmarkList.swift */,
+				EA8E224E2C45698B00FE09EB /* LandmarkDetail.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		EA8E22482C45608100FE09EB /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EA8E22422C4554D000FE09EB /* Landmark.swift */,
+				EA8E22442C455F9C00FE09EB /* ModelData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EA8E22492C45609800FE09EB /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EA8E22402C4553F300FE09EB /* landmarkData.json */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		EA91B3762C450D3300A22566 = {
 			isa = PBXGroup;
 			children = (
 				EA91B3812C450D3300A22566 /* Landmarks */,
 				EA91B3802C450D3300A22566 /* Products */,
+				9CF4B7566A548BE7F93B9F7E /* Pods */,
+				779440A6FE901BAB06B0E56D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -52,7 +122,9 @@
 			isa = PBXGroup;
 			children = (
 				EA91B3822C450D3300A22566 /* LandmarksApp.swift */,
-				EA91B3842C450D3300A22566 /* ContentView.swift */,
+				EA8E22472C45605D00FE09EB /* Views */,
+				EA8E22482C45608100FE09EB /* Model */,
+				EA8E22492C45609800FE09EB /* Resources */,
 				EA91B3862C450D3400A22566 /* Assets.xcassets */,
 				EA91B3882C450D3400A22566 /* Preview Content */,
 			);
@@ -74,6 +146,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = EA91B38D2C450D3400A22566 /* Build configuration list for PBXNativeTarget "Landmarks" */;
 			buildPhases = (
+				6D2D6D9944E20E85646155CC /* [CP] Check Pods Manifest.lock */,
+				EA8E223D2C4539AC00FE09EB /* ShellScript */,
 				EA91B37B2C450D3300A22566 /* Sources */,
 				EA91B37C2C450D3300A22566 /* Frameworks */,
 				EA91B37D2C450D3300A22566 /* Resources */,
@@ -127,10 +201,53 @@
 			files = (
 				EA91B38A2C450D3400A22566 /* Preview Assets.xcassets in Resources */,
 				EA91B3872C450D3400A22566 /* Assets.xcassets in Resources */,
+				EA8E22412C4553F300FE09EB /* landmarkData.json in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		6D2D6D9944E20E85646155CC /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Landmarks-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EA8E223D2C4539AC00FE09EB /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftgen >/dev/null; then\n  swiftgen config run --config \"${SRCROOT}/swiftgen.yml\"\nelse\n  echo \"warning: SwiftGen not installed, download from https://github.com/SwiftGen/SwiftGen\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		EA91B37B2C450D3300A22566 /* Sources */ = {
@@ -138,7 +255,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				EA91B3852C450D3300A22566 /* ContentView.swift in Sources */,
+				EA8E224B2C45611100FE09EB /* LandMarkRow.swift in Sources */,
+				EA8E223F2C453D2800FE09EB /* MapView.swift in Sources */,
+				EA8E224D2C4564E100FE09EB /* LandmarkList.swift in Sources */,
+				EA8E224F2C45698B00FE09EB /* LandmarkDetail.swift in Sources */,
 				EA91B3832C450D3300A22566 /* LandmarksApp.swift in Sources */,
+				EA55190C2C453630002D0359 /* CircleImage.swift in Sources */,
+				EA8E22432C4554D000FE09EB /* Landmark.swift in Sources */,
+				EA8E22452C455F9C00FE09EB /* ModelData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -266,6 +390,7 @@
 		};
 		EA91B38E2C450D3400A22566 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9AEBAA0F765B780E6FC04B21 /* Pods-Landmarks.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -295,6 +420,7 @@
 		};
 		EA91B38F2C450D3400A22566 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1220B7E73737248D6B0DB98E /* Pods-Landmarks.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
