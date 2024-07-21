@@ -11,17 +11,16 @@ The Landmarks app is a SwiftUI project that displays a list of landmarks and all
 ## Screenshots
 
 ### Home Screen
-![Home Screen](Screenshots/home_screen.png)
+<img src="Screenshots/home_screen.png" width="300">
 
 ### Details Screen
-![Details Screen](Screenshots/details_screen.png)
+<img src="Screenshots/details_screen.png" width="300">
 
 ### Favorites Screen
-![Favorites Screen](Screenshots/favorites_screen.png)
+<img src="Screenshots/favorites_screen.png" width="300">
 
 ### Another Screen
-![Another Screen](Screenshots/another_screen.png)
-
+<img src="Screenshots/another_screen.png" width="300">
 ## Requirements
 
 - iOS 16.0 or later
