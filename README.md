@@ -10,37 +10,13 @@ The Landmarks app is a SwiftUI project that displays a list of landmarks and all
 
 ## Screenshots
 
-<table>
-  <tr>
-    <td>
-      <strong>Home Screen</strong><br>
-      <a href="https://res.cloudinary.com/your-cloud-name/image/upload/v1628256200/home_screen.png">
-        <img src="https://res.cloudinary.com/your-cloud-name/image/upload/w_150/v1628256200/home_screen.png" alt="Home Screen">
-      </a>
-    </td>
-    <td>
-      <strong>Details Screen</strong><br>
-      <a href="https://res.cloudinary.com/your-cloud-name/image/upload/v1628256200/details_screen.png">
-        <img src="https://res.cloudinary.com/your-cloud-name/image/upload/w_150/v1628256200/details_screen.png" alt="Details Screen">
-      </a>
-    </td>
-  </tr>
-  <tr>
-    <td>
-      <strong>Favorites Screen</strong><br>
-      <a href="https://res.cloudinary.com/your-cloud-name/image/upload/v1628256200/favorites_screen.png">
-        <img src="https://res.cloudinary.com/your-cloud-name/image/upload/w_150/v1628256200/favorites_screen.png" alt="Favorites Screen">
-      </a>
-    </td>
-    <td>
-      <strong>Another Screen</strong><br>
-      <a href="https://res.cloudinary.com/your-cloud-name/image/upload/v1628256200/another_screen.png">
-        <img src="https://res.cloudinary.com/your-cloud-name/image/upload/w_150/v1628256200/another_screen.png" alt="Another Screen">
-      </a>
-    </td>
-  </tr>
-</table>
+| Home Screen                           | Details Screen                          |
+|---------------------------------------|-----------------------------------------|
+| ![Home Screen](Screenshots/home_screen.png) | ![Details Screen](Screenshots/details_screen.png) |
 
+| Favorites Screen                      | Another Screen                          |
+|---------------------------------------|-----------------------------------------|
+| ![Favorites Screen](Screenshots/favorites_screen.png) | ![Another Screen](Screenshots/another_screen.png) |
 
 ## Requirements
 
