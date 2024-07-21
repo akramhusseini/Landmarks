@@ -28,7 +28,11 @@ struct LandmarkList: View {
                         LandmarkDetail(landmark: landmark)
                     } label: {
                         LandMarkRow(landmark: landmark)
+                            .buttonStyle(ClearButtonStyle())
+
                     }
+                    .contentShape(Rectangle()) // Ensure the entire row is tappable
+                            .background(Color.clear) // Ensure the background is clear
                 }
             }
             .animation(.default, value: filteredLandmarks)
@@ -43,4 +47,13 @@ struct LandmarkList: View {
 #Preview {
     LandmarkList()
         .environmentObject(ModelData())
+}
+
+struct ClearButtonStyle: ButtonStyle {
+    func makeBody(configuration: Configuration) -> some View {
+        configuration.label
+            .padding() // Optional: Add padding if necessary
+            .background(Color.clear) // Ensure the background is clear
+            .contentShape(Rectangle()) // Ensure the entire area is tappable
+    }
 }

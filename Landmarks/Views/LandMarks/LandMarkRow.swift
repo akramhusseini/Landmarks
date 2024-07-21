@@ -24,7 +24,6 @@ struct LandMarkRow: View {
             Text(landmark.name)
             Spacer()
                 FavouritesButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
-
         }
     }
 }
