@@ -8,7 +8,13 @@
 import SwiftUI
 
 struct LandMarkRow: View {
+    @EnvironmentObject var modelData: ModelData
+    
     var landmark: Landmark
+    
+    var landmarkIndex: Int {
+        modelData.landmarks.firstIndex(where: { $0.id == landmark.id })!
+    }
     
     var body: some View {
         HStack {
@@ -17,19 +23,19 @@ struct LandMarkRow: View {
                 .frame(width: 50, height: 50)
             Text(landmark.name)
             Spacer()
-            if landmark.isFavorite {
-                Image(systemName: "star.fill")
-                    .foregroundStyle(.yellow)
-            }
+                FavouritesButton(isSet: $modelData.landmarks[landmarkIndex].isFavorite)
+
         }
     }
 }
 
 #Preview("Turtle Rock") {
-    let landmarks = ModelData().landmarks
+    let modelData = ModelData()
     return Group {
-        LandMarkRow(landmark: landmarks[0])
-        LandMarkRow(landmark: landmarks[1])
+        LandMarkRow(landmark: modelData.landmarks[0])
+            .environmentObject(modelData)
+        LandMarkRow(landmark: modelData.landmarks[1])
+            .environmentObject(modelData)
     }
 }
 
