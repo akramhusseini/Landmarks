@@ -1,6 +1,6 @@
 # Landmarks
 
-The Landmarks app is a SwiftUI project that displays a list of landmarks and allows users to mark their favorite landmarks. 
+The Landmarks app is a SwiftUI project that displays a list of landmarks and allows users to mark their favorite landmarks.
 
 ## Features
 
@@ -10,7 +10,17 @@ The Landmarks app is a SwiftUI project that displays a list of landmarks and all
 
 ## Screenshots
 
-(Include some screenshots of your app here)
+### Home Screen
+![Home Screen](Screenshots/home_screen.png)
+
+### Details Screen
+![Details Screen](Screenshots/details_screen.png)
+
+### Favorites Screen
+![Favorites Screen](Screenshots/favorites_screen.png)
+
+### Another Screen
+![Another Screen](Screenshots/another_screen.png)
 
 ## Requirements
 
